@@ -1,7 +1,14 @@
 {
   "name": "beryland",
   "version": "1.0.0",
-  "main": "index.js",
+  "source": "src/index.html",
   "repository": "https://github.com/joanna-cosemans/beryland.git",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
